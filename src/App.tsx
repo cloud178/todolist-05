@@ -28,7 +28,7 @@ export const App = () => {
     const todolistId_2 = v1()
 
     const [todolists, setTodolists] = useState<Todolist[]>([
-        {id: todolistId_1, title: 'What to lear', filter: 'all'},
+        {id: todolistId_1, title: 'What to learn', filter: 'all'},
         {id: todolistId_2, title: 'What to buy', filter: 'all'},
     ])
 
